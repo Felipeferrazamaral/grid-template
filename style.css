@@ -1,1 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
+header {
+    background-color: blueviolet;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    height: 10vh;
+    padding: 0 2%;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+main aside {
+    background-color: pink;
+}
+
+footer {
+    background-color: blueviolet;
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    justify-items: center;
+}
+
+.gallery {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, 150px);
+    gap: 20px;
+    justify-content: center;
+ 
+}
